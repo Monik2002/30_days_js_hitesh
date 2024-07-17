@@ -117,10 +117,67 @@ for (let i = 1; i <= 10; i++) {
 
 // Feature Request:
 // Number Printing Script: Write a script that prints numbers from 1 to 10 using a for loop and a while loop.
+
+// Using a for loop
+console.log("Using for loop:");
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+// Using a while loop
+console.log("Using while loop:");
+let m = 1;
+while (m <= 10) {
+    console.log(j);
+    m++;
+}
+
 // Multiplication Table Script: Create a script that prints the multiplication table of 5 using a for loop.
+
+console.log("Multiplication table of 5:");
+for (let i = 1; i <= 10; i++) {
+    console.log(`5 x ${i} = ${5 * i}`);
+}
+
 // Pattern Printing Script: Write a script that prints a pattern of stars using nested loops.
+
+console.log("Pattern of stars:");
+for (let row = 1; row <= 4; row++) {
+    let pattern = "";
+    for (let col = 1; col <= row; col++) {
+        pattern += "* ";
+    }
+    console.log(pattern);
+}
+
 // Sum Calculation Script: Write a script that calculates the sum of numbers from 1 to 10 using a while loop.
+
+let sum1 = 0;
+let l = 1;
+
+while (l <= 10) {
+    sum += l;
+    l++;
+}
+
+console.log(`The sum of numbers from 1 to 10 is: ${sum}`);
+
 // Factorial Calculation Script: Create a script that calculates the factorial of a number using a do...while loop.
+
+function calculateFactorial1(number) {
+    let factorial1 = 1;
+    let n1 = number;
+
+    do {
+        factorial1 *= n1;
+        n1--;
+    } while (n1 >= 1);
+
+    return factorial1;
+}
+
+calculateFactorial1(5); // Output: 120
+
 // Achievement:
 // By the end of these activities, students will:
 
