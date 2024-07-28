@@ -23,3 +23,17 @@
 // 8. Write a function to check if a number is an Armstrong number.
 // 9. Write a function to check if a number is a perfect number.
 // 10. Write a function to check if a number is a strong number.
+
+// ** Polyfills 
+// 1. Implement your own version of the map method.
+// 2. Implement your own version of the filter method.
+// 3. Implement your own version of the reduce method.
+// 4. Implement your own version of the forEach method.
+// 5. Implement your own version of the find method.
+// 6. Implement your own version of the findIndex method.
+// 7. Implement your own version of the indexOf method.
+// 8. Implement your own version of the slice method.
+// 9. Implement your own version of the splice method.
+// 10. Implement your own version of the split method.
+
+
