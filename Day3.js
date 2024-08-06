@@ -140,3 +140,5 @@ checkLeapYear(2020); // Output: 2020 is a leap year.
 // Utilize switch cases for control flow based on specific values.
 // Apply the ternary operator for concise condition checking.
 // Combine multiple conditions to solve more complex problems.
+
+// done

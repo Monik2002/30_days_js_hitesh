@@ -148,3 +148,5 @@ div1.addEventListener('mouseover', () => {
 // Remove elements from the DOM.
 // Modify attributes and classes of HTML elements.
 // Add and handle events to make web pages interactive.
+
+// done

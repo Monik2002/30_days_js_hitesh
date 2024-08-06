@@ -162,3 +162,5 @@ fetchDataFromInvalidURL();
 // Create and use custom error classes.
 // Handle errors in promises using .catch() and within async functions using try-catch.
 // Implement graceful error handling when making network requests with the fetch API.
+
+// done

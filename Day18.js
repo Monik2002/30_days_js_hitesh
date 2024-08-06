@@ -544,3 +544,5 @@ console.log(knapsack(values, weights, W)); // 220
 // Solve string manipulation problems using algorithms.
 // Perform array operations using algorithms.
 // Apply dynamic programming to solve complex problems (optional).
+
+// done

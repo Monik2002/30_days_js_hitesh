@@ -179,3 +179,5 @@ console.log(maxDepth(root)); // 3
 // Apply recursion to solve problems with arrays and strings.
 // Use recursion for searching and counting elements in arrays.
 // Perform tree traversal and calculate tree depth using recursion (optional).
+
+// done
