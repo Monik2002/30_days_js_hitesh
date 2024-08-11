@@ -7,7 +7,23 @@
 // Activity 2: Fetching Weather Data
 
 // Task 3: Use the fetch API to get current weather data from a public weather API (e.g., OpenWeatherMap). Log the response data to the console.
+
+fetch('https://api.openweathermap.org/data/2.5/weather?q="city"&appid"API_KEY"').then(response => {
+    if (response.ok) {
+        return response.json();
+    } else {
+        throw new Error('Failed to fetch data');
+    }
+}).then(data => {
+    console.log(data);
+}).catch(error => {
+    console.error(error);
+});
+
+// Note: Replace "city" with the desired city name and "API_KEY" with your OpenWeatherMap API key.
+
 // Task 4: Parse the weather data and display the current temperature, weather condition, and city name on the web page.
+
 // Activity 3: Adding Search Functionality
 
 // Task 5: Add an input field and a search button to the HTML structure. Style the input and button using CSS.
